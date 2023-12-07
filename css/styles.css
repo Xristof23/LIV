@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    font-family: monospace;
+    font-size: 16px;
+    line-height: 1.3;
+    color: lightgrey;
+    background-color: black;
+  }
+    a:link {
+            text-decoration:none;
+      }
+
+    a:hover {
+          text-decoration: underline;
+      }
+
+    nav {
+          width: 70%;
+          display: flex;
+          /*justify-content: space-evenly;*/
+          flex-direction: row;
+          align items: flex-start;
+          gap: 10px 36px;
+    }
+    h1 {
+          font-size: 1.5rem;
+          color: darkorange
+    }
+    h2 {
+        font-size: 1.2rem;
+        color: darkorange
+  }
+  .up {
+    font-size: 1.2rem;
+    color: darkorange
+}
+    section {
+          /*display: flex;*/
+    }
